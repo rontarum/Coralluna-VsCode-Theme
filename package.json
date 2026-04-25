@@ -1,0 +1,21 @@
+{
+  "name": "coralluna-theme",
+  "version": "0.7.0",
+  "publisher": "coralluna",
+  "displayName": "Coralluna",
+  "description": "A deep soft dark-blue Godot-friendly theme in corall forest colors",
+  "repository": "https://github.com/rontarum/Coralluna-VsCode-Theme",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Coralluna",
+        "path": "./themes/coralluna-color-theme.json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  }
+}
