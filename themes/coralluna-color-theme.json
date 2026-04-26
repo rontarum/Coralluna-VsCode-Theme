@@ -1789,7 +1789,7 @@
       "name": "Comments",
       "scope": "comment, punctuation.definition.comment",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "bold",
         "foreground": "#7f9dcd80"
       }
     },
@@ -1819,28 +1819,28 @@
       "name": "js/ts italic",
       "scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.parameter,variable.language.super",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "regular"
       }
     },
     {
       "name": "comment",
       "scope": "comment.line.double-slash,comment.block.documentation",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "bold"
       }
     },
     {
       "name": "Python Keyword Control",
       "scope": "keyword.control.import.python,keyword.control.flow.python",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "bold"
       }
     },
     {
       "name": "markup.italic.markdown",
       "scope": "markup.italic.markdown",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "regular"
       }
     }
   ],
@@ -1858,6 +1858,7 @@
     "activityBar.activeBackground": "#2398ff00",
     "sideBar.background": "#1c1f2e",
     "sideBar.foreground": "#cccccc",
+    "sideBar.border": "#141620",
     "sideBarSectionHeader.background": "#00000000",
     "sideBarSectionHeader.foreground": "#ffffff",
     "sideBarSectionHeader.border": "#cccccc33",
@@ -2081,7 +2082,7 @@
     "minimapGutter.addedBackground": "#587c0c",
     "minimapGutter.modifiedBackground": "#0c7d9d",
     "minimapGutter.deletedBackground": "#94151b",
-    "minimap.findMatchHighlight": "#515c6ade",
+    "minimap.findMatchHighlight": "#515c6aec",
     "minimap.selectionHighlight": "#2c40619d",
     "minimap.errorHighlight": "#f24a82",
     "minimap.warningHighlight": "#fbb954",

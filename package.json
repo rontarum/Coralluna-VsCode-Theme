@@ -1,6 +1,6 @@
 {
   "name": "coralluna-theme",
-  "version": "0.7.0",
+  "version": "0.8.1",
   "publisher": "coralluna",
   "displayName": "Coralluna",
   "description": "A deep soft dark-blue Godot-friendly theme in corall forest colors",
@@ -14,6 +14,11 @@
       {
         "label": "Coralluna",
         "path": "./themes/coralluna-color-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Coralluna Godot",
+        "path": "./themes/coralluna-godot-theme.json",
         "uiTheme": "vs-dark"
       }
     ]
